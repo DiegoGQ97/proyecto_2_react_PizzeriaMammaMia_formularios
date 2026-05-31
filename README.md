@@ -1,4 +1,4 @@
-# 🍕 Pizzería Mamma Mia! - Hito 2 🇮🇹
+# 🍕 Pizzería Mamma Mia!
 
 Este proyecto es una aplicación web de e-commerce desarrollada con **React** y **Vite** para la pizzería "Mamma Mia!". En esta etapa del desarrollo, se implementó la lógica de estados y la validación de datos para los procesos de autenticación de la plataforma a través de formularios interactivos.
 

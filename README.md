@@ -1,16 +1,17 @@
-# React + Vite
+# 🍕 Pizzería Mamma Mia! - Hito 2 🇮🇹
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web de e-commerce desarrollada con **React** y **Vite** para la pizzería "Mamma Mia!". En esta etapa del desarrollo, se implementó la lógica de estados y la validación de datos para los procesos de autenticación de la plataforma a través de formularios interactivos.
 
-Currently, two official plugins are available:
+## 🚀 Características del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Formulario de Registro:** Captura de datos de usuario con validaciones en tiempo real para campos obligatorios, longitud de contraseña (mínimo 6 caracteres) y confirmación idéntica de credenciales.
+- **Formulario de Inicio de Sesión (Login):** Captura de credenciales con validaciones de campos obligatorios y longitud mínima de contraseña.
+- **Navegación Dinámica:** Integración completa de eventos en los botones del `Navbar` (`Login` y `Register`) para alternar de forma fluida entre componentes mediante estados de React sin recargar la página.
+- **Diseño Responsivo:** Interfaz estilizada utilizando componentes nativos de **Bootstrap 5** y corrección de maquetación estructural (*Sticky Footer* con Flexbox).
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Biblioteca de JavaScript para interfaces de usuario)
+- **Vite** (Herramienta de desarrollo y empaquetador rápido)
+- **Bootstrap 5** (Framework CSS para diseño y estilos responsivos)
+- **JavaScript (ES6+)**
